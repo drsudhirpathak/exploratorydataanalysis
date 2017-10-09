@@ -1,6 +1,6 @@
 # Coursera Data Science: Exploratory Data Analysis
 # Course project 1: plot2
-# Cheng-Han Yu
+# Sudhir Pathak
 ################################################################################
 ## load the data
 rm(list = ls())
@@ -20,3 +20,4 @@ plot(Global_active_power ~ datetime, type = "l",ylab = "Global Active Power (kil
 dev.copy(png, file = "plot2.png", height = 480, width = 480)
 dev.off()
 detach(data)
+
