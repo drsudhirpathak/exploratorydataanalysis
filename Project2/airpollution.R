@@ -1,6 +1,6 @@
 ## Has fine particle pollution in the U.S. decreased from 1999 to
 ## 2012?
-
+# sudhir Pathak
 ## Read in data from 1999
 
 pm0 <- read.table("./exp-data/case-study/air-pollution/RD_501_88101_1999-0.txt", comment.char = "#", header = FALSE, sep = "|", na.strings = "")
